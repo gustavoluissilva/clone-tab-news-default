@@ -1,22 +1,19 @@
 function Home() {
   return (
     <>
-      <link rel="stylesheet" href="./style.css" />
-      <h1>Site em Contrução!!</h1>
-      <div class="🤚">
-        <div class="👉"></div>
-        <div class="👉"></div>
-        <div class="👉"></div>
-        <div class="👉"></div>
-        <div class="🌴"></div>
-        <div class="👍"></div>
+      <div className="background">
+        <h1>Site em Contrução!!</h1>
+        <div className="🤚">
+          <div className="👉"></div>
+          <div className="👉"></div>
+          <div className="👉"></div>
+          <div className="👉"></div>
+          <div className="🌴"></div>
+          <div className="👍"></div>
+        </div>
+
+        <p className="nome">by: Gustavo Luis da Silva </p>
       </div>
-      <img
-        src="/images/logo_das_duas.jpg"
-        alt="Site em construção"
-        width={300}
-      />
-      <p>by: Gustavo Luis da Silva </p>
     </>
   );
 }
